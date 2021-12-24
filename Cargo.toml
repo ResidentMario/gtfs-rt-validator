@@ -1,0 +1,12 @@
+[package]
+name = "gtfs-rt-validator"
+version = "0.1.0"
+authors = ["Aleksey Bilogur <aleksey@residentmar.io>"]
+edition = "2018"
+
+[dependencies]
+prost = "0.9"  # this version number should match the prost-build one
+clap = "2.34.0"
+
+[build-dependencies]
+prost-build = { version = "0.9" }  # this version number should match the prost-build one
